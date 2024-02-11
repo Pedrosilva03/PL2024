@@ -1,11 +1,11 @@
 class Atleta:
     def __init__(self, idAtleta, index, dataEMD, primeiroNome, ultimoNome, idade, genero, morada, modalidade, clube, email, federado, resultado):
         self.idAtleta = idAtleta
-        self.index = index
+        self.index = int(index)
         self.dataEMD = dataEMD
         self.primeiroNome = primeiroNome
         self.ultimoNome = ultimoNome
-        self.idade = idade
+        self.idade = int(idade) 
         self.genero = genero
         self.morada = morada
         self.modalidade = modalidade

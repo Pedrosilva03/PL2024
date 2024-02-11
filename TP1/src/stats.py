@@ -26,4 +26,33 @@ def inaptos(lista_atletas):
     return (inaptos / len(lista_atletas)) * 100
 
 def escalao(lista_atletas):
-    return
+    escalao = {}
+
+    min = 100
+    max = 0
+
+    for atleta in lista_atletas:
+        idade = atleta.getIdade()
+        if idade >= max:
+            max = idade
+        elif idade <= min:
+            min = idade
+
+    i = min
+    while i <= max:
+        intervalo = str(i) + '-' + str(i + 3)
+        escalao[intervalo] = None
+        i = i + 4
+
+    for atleta in lista_atletas:
+        idade = atleta.getIdade()
+
+        for intervalo, _ in escalao.items():
+            intervalo_int = intervalo.split("-")
+            if int(intervalo_int[0]) <= idade <= int(intervalo_int[1]):
+                if escalao[intervalo] == None:
+                    escalao[intervalo] = [atleta.getPrimeiroNome() + ' ' + atleta.getUltimoNome()]
+                else:
+                    escalao[intervalo].append(atleta.getPrimeiroNome() + ' ' + atleta.getUltimoNome())
+    
+    return escalao
