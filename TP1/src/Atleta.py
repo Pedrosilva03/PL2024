@@ -15,79 +15,79 @@ class Atleta:
         self.resultado = resultado
 
     def getIdAtleta(self):
-        return self._idAtleta
+        return self.idAtleta
 
     def setIdAtleta(self, idAtleta):
-        self._idAtleta = idAtleta
+        self.idAtleta = idAtleta
 
     def getIndex(self):
-        return self._index
+        return self.index
 
     def setIndex(self, index):
-        self._index = index
+        self.index = index
 
     def getDataEMD(self):
-        return self._dataEMD
+        return self.dataEMD
     
     def setDataEMD(self, dataEMD):
-        self._dataEMD = dataEMD
+        self.dataEMD = dataEMD
 
     def getPrimeiroNome(self):
-        return self._primeiroNome
+        return self.primeiroNome
 
     def setPrimeiroNome(self, primeiroNome):
-        self._primeiroNome = primeiroNome
+        self.primeiroNome = primeiroNome
 
     def getUltimoNome(self):
-        return self._ultimoNome
+        return self.ultimoNome
     
     def setUltimoNome(self, ultimoNome):
-        self._ultimoNome = ultimoNome
+        self.ultimoNome = ultimoNome
 
     def getIdade(self):
-        return self._idade
+        return self.idade
 
     def setIdade(self, idade):
-        self._idade = idade
+        self.idade = idade
 
     def getGenero(self):
-        return self._genero
+        return self.genero
 
     def setGenero(self, genero):
-        self._genero = genero
+        self.genero = genero
 
     def getMorada(self):
-        return self._morada
+        return self.morada
 
     def setMorada(self, morada):
-        self._morada = morada
+        self.morada = morada
 
     def getModalidade(self):
-        return self._modalidade
+        return self.modalidade
 
     def setModalidade(self, modalidade):
-        self._modalidade = modalidade
+        self.modalidade = modalidade
 
     def getClube(self):
-        return self._clube
+        return self.clube
 
     def setClube(self, clube):
-        self._clube = clube
+        self.clube = clube
 
     def getEmail(self):
-        return self._email
+        return self.email
 
     def setEmail(self, email):
-        self._email = email
+        self.email = email
 
     def getFederado(self):
-        return self._federado
+        return self.federado
 
     def setFederado(self, federado):
-        self._federado = federado
+        self.federado = federado
 
     def getResultado(self):
-        return self._resultado
+        return self.resultado
 
     def setResultado(self, resultado):
-        self._resultado = resultado
+        self.resultado = resultado
