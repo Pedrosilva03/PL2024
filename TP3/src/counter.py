@@ -5,11 +5,10 @@ def count(input):
 
     somas = []
     soma_aux = 0
-    behaviour = True
+    behaviour = False
     for token in tokens:
         if token == '=':
             somas.append(soma_aux)
-            soma_aux = 0
         elif token.lower() == 'on':
             behaviour = True
         elif token.lower() == 'off':
