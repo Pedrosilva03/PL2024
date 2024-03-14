@@ -13,7 +13,7 @@ def saver(data_path, new_stock):
     json.dump(new_stock, data_file, indent=2, ensure_ascii=False)
 
 def main(argv):
-    data_path = f'../data/{argv[1]}'
+    data_path = argv[1]
     stock = loader(data_path)
 
     new_stock = vending.start(stock)
