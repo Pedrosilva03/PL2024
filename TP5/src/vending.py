@@ -13,10 +13,11 @@ tokens = [
 menu = """
         Bem-vindo à máquina de venda automática.
         Comandos disponíveis:
-        - SALDO
-        - MOEDA <quantia>e e/ou <quantia>c
         - LISTAR
+        - MOEDA <quantia>e e/ou <quantia>c
         - SELECIONAR <produto>  
+        - SALDO
+        - ADICIONAR <cod_produto> <quantidade>
         - SAIR
         """
 
