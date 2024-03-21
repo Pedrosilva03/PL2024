@@ -6,7 +6,7 @@
 
 ## Descrição
 Implementação de uma GIC (Gramática Independente de Contexto) para realização de operações matemáticas.
-A gramática pode ser analisada em detalhe [aqui]()
+A gramática pode ser analisada em detalhe [aqui](https://github.com/Pedrosilva03/PL2024/blob/main/TP6/Gramatica.md)
 
 ## Funcionamento
 
